@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="../Portfolio/Images/favicon.png">
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="https://kit.fontawesome.com/454fc7dc61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NavBar Section Start -->
+
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <img src="Images/logo.png" class="logo" alt="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+
+            <div class="home-text">
+                <h1>Hi, This is <br />Jeet Mahaur<span> .</span></h1>
+                <p> I'm a <span class="auto-input">Web Developer</span></p>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- NavBar Section End -->
+
+    <!-- About Section Start -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.jpg" alt="User.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="heading">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eligendi minus fugiat ipsa
+                        dignissimos cum enim a, earum et. Commodi recusandae, asperiores sequi dignissimos eligendi
+                        ipsum hic! Iure, quas! Fuga nam beatae tempora deleniti exercitationem dolorem nisi veniam
+                        impedit quidem.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br />Desiging Web/App Interfaces</li>
+                            <li><span>Web Devlopment</span><br />Web app Devlopment</li>
+                            <li><span>App Devlopment</span><br />Building Andriod/ Ios App</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Ineternship</span><br />And Technology</li>
+                            <li><span>Project Delivery Executive</span><br />Creative Lipi Pvt. Ltd.
+                                (Vendor Company of IndiaMart)</li>
+                            <li><span>Project Delivery Executive</span><br />D.D. Infosoct Pvt. Ltd.
+                                (Vendor Company of IndiaMart)</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>3 Year Diploma</span><br />Computer Scienc & Engg.</li>
+                            <li><span>Intermediate</span><br />PCM</li>
+                            <li><span>3 months certificate course</span><br />Computer Hardware and Networking</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About Section End-->
+
+    <!--Services Section Start-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="heading">Our Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quas tempore doloremque inventore
+                        id est, voluptas accusamus saepe aliquid eligendi!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Web Devlopment</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quas tempore doloremque inventore
+                        id est, voluptas accusamus saepe aliquid eligendi!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Devlopment</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quas tempore doloremque inventore
+                        id est, voluptas accusamus saepe aliquid eligendi!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>SEO</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quas tempore doloremque inventore
+                        id est, voluptas accusamus saepe aliquid eligendi!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quas tempore doloremque inventore
+                        id est, voluptas accusamus saepe aliquid eligendi!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quas tempore doloremque inventore
+                        id est, voluptas accusamus saepe aliquid eligendi!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Service Section End -->
+
+    <!-- Portfolio Section Start -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="heading">My Portfolio</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work1.jpg" alt="">
+
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, velit a placeat
+                            labore eligendi nostrum dolorem provident vitae voluptas eius!</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Mobile App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, velit a placeat
+                            labore eligendi nostrum dolorem provident vitae voluptas eius!</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, velit a placeat
+                            labore eligendi nostrum dolorem provident vitae voluptas eius!</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!--Portfolio Section End-->
+
+    <!-- Contact Section Start -->
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="heading">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> @exmaple.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> XXXXXXXXXX</p>
+                    <div class="social-item">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Jeet Mahaur.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div>
+                </div>
+
+                <!-- Contact Section End -->
+
+                <!-- Copyrigth Section Start -->
+
+                <div class="copyright">
+                    <p>Copyright Jeet Mahaur 2023<i class="fas fa-heart"></i></p>
+                </div>
+            </div>
+
+            <!-- Copyrigth Section Start -->
+
+
+
+
+            <!-- JavaScript -->
+            <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+            <script src="../Portfolio/myScript.js"></script>
+
+</body>
+
+</html>
